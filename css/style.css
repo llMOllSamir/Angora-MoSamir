@@ -1,0 +1,314 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+:root {
+  --main-color: rgb(242, 84, 84);
+  --sec-color:rgb(250,250,250);
+  --main-font: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--main-font);
+}
+
+/* ................navbar................*/
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--main-color);
+}
+.navbar-nav .nav-link.active {
+  color: var(--main-color);
+}
+header nav a {
+  font-family: var(--main-font);
+  font-size: 13px;
+  font-weight: 600;
+}
+header nav a i {
+  color: black;
+  font-size: 16px;
+}
+header nav a:hover i {
+  color: var(--main-color);
+}
+@media all and (max-width: 992px) {
+  header nav #icons {
+    display: none;
+  }
+}
+.gearbtn{
+  width: 40px;
+  height: 40px;
+  top: 20%;
+  left: 0;
+  z-index: 2;
+}
+/* ......................Home.......... */
+#home .h1-custom {
+  top: 50%;
+  left: 50%;
+  font-size: 4rem;
+  max-width: 450px;
+  text-align: center;
+  color: white;
+  transform: translate(-50%);
+  font-weight: bolder;
+  animation: move 1.5s  ;
+}
+@keyframes move {
+  0%{transform: translatex(250%);}
+  100%{transform: translatex(-50%);}
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+#home .h1-custom-1{
+  max-width: 550px;
+}
+#home .btn-custom{
+  width: 50px;
+  height: 50px;
+  border: 1px white solid;
+  border-left: 0;
+}
+.bg-moving{
+  width: 50px;
+  height: 50px;
+  left: -150%;
+  transition: all .5s;
+}
+#home .btn-custom:hover span{
+  color: black;
+}
+#home .btn-custom:hover .bg-moving{
+  width: 50px;
+  left: 0;
+  background-color: white;
+}
+
+#home .btn-custom-prev{
+  top: 45.5%;
+}
+#home .btn-custom-next{
+  top: 50%;
+  left: 0;
+}
+.movingbtn{
+  height: 50px;
+  width: 30px;
+  top: 90%;
+  left: 50%;
+  border: white 1px solid;
+  z-index: 3;
+}
+.movingbtn::after{
+  content: "";
+  width: 5px;
+  height: 3px ;
+  border: 4px white solid;
+  border-radius: 50%;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translatex(-50%);
+  animation: movebtn 2s infinite;
+}
+@keyframes movebtn{
+  0%{top:10%;opacity: 1;}
+  100%{top:80%;opacity: 0;}
+}
+/* .......................About............. */
+.title-text {
+  position: relative;
+  font-weight: 700;
+  font-size: 38px;
+}
+.title-text::before {
+  content: "A";
+  font-size: 5rem;
+  font-weight: bolder;
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%);
+  opacity: 0.1;
+}
+.title-text::after {
+  content: "";
+  width: 3%;
+  height: 1px;
+  border-bottom: black 1px solid;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  transition: all 0.5s;
+}
+.section-title:hover .title-text::after {
+  width: 5%;
+}
+#about .percentage {
+  margin-bottom: 30px;
+}
+#about .percentage p {
+  margin-bottom: 0;
+}
+#about .percentage .prog-text1 {
+  width: 80%;
+}
+#about .percentage .prog-text2 {
+  width: 95%;
+}
+#about .percentage .prog-text3 {
+  width: 85%;
+}
+#about .percentage .prog-text4 {
+  width: 70%;
+}
+/* .......................OurTeam........ */
+#team .title-text::before {
+  content: "O";
+}
+#team .items .layer {
+  opacity: 0;
+  transition: all 0.5s;
+}
+#team .items figure {
+  overflow: hidden;
+}
+#team .items figure img {
+  transition: all 0.5s;
+}
+#team .items:hover .layer {
+  opacity: 1;
+}
+#team .items:hover img {
+  transform: scale(1.1);
+}
+#team .items h5 {
+  transition: all 0.5s;
+}
+#team .items:hover h5 {
+  color: red;
+}
+/* .................services........... */
+#services {
+  background-color: var(--sec-color);
+}
+#services .title-text::before {
+  content: "S";
+}
+#services .services-item:hover .services-text{
+  color:var(--main-color)
+}
+#services .services-icon .services-text{
+  transition: all .5s;
+}
+#services .rotation{
+  transform: rotate(90deg);
+}
+/* .................blog................ */
+#blog .title-text::before {
+  content: "C";
+}
+#blog .btn-custom{
+  width: 130px;
+  height: 130px;
+  text-indent:0;
+}
+#blog .content{
+  max-width: 50%;
+}
+/* ...............contact....... */
+#contact{
+  background-color: var(--sec-color);
+}
+#contact .title-text::before {
+  content: "G";
+}
+#contact .color-font h5{
+  transition: all 1s;
+}
+#contact .color-font:hover h5{
+  color: var(--main-color);
+}
+#contact .color-font a{
+  color: rgb(89,92,95);
+  transition: all .5s .5s;
+}
+#contact .color-font p:hover  a{
+  color: var(--main-color);
+}
+/* ................. footer........... */
+footer .layer{
+  background-image: url(/images/map.png);
+  background-position: center;
+  background-size: contain;
+}
+footer .layer .text-footer a{
+  color: white;
+  opacity: 75%;
+  text-decoration: none;
+  transition: all .5s;
+}
+footer .layer .text-footer a:hover{
+  color: var(--main-color);
+}
+footer .footer-list{
+  list-style: none;
+  padding-left: 0;
+}
+footer .layer .footer-list a{
+  color: white;
+  opacity: 75%;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.btn-footer .btn-custom{
+  color: white;
+  opacity: 75%;
+  text-decoration: none;
+  border: 1px rgba(255,255,255,0.75) solid;
+  font-size: smaller;
+  transition: all .2s;
+
+}
+.btn-footer .btn-custom:hover{
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+footer .layer2{
+  background-color: black;
+}
+footer .layer2 a{
+color: white;
+transition: all .5s;
+}
+footer .layer2 a:hover{
+  color: var(--main-color);
+  }
+  footer .layer2  .link-web{
+    text-decoration: none;
+  }
+  footer .slide-icon{
+    width: 50px;
+    height: 50px;
+    top: 0%;
+    left: 50%;
+    opacity: .5;
+    transition: all .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .slide-icon:hover{
+    opacity: 1;
+  }

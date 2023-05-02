@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angora - Responsive One Page Parallax Template</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="position-relative">
+      <nav
+        class="navbar bg-light navbar-expand-md bg-body-tertiary position-fixed start-0 end-0 z-3"
+      >
+        <div class="container-lg mx-auto px-5">
+          <a class="navbar-brand" href="#home"
+            ><img src="images/logo-white-color.png" class="img-fluid" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item px-md-3 px-lg-1">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item px-md-3 px-lg-1">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item px-md-3 px-lg-1">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item px-md-3 px-lg-1">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item px-md-3 px-lg-1">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item px-md-3 px-lg-4">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li id="icons" class="nav-item px-md-3 px-lg-4 my-auto">
+                <a href=""
+                  ><i class="fa-brands fa-twitter px-lg-2 px-lg-2"></i
+                ></a>
+                <a href=""
+                  ><i class="fa-brands fa-facebook-f px-lg-2 px-lg-2"></i
+                ></a>
+                <a href=""
+                  ><i class="fa-brands fa-instagram px-lg-2 px-lg-2"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="gearbtn btn btn-dark d-flex justify-content-center align-items-center rounded-0 rounded-end-1 position-fixed"
+      >
+        <i class="fa-solid fa-gears text-light"></i>
+      </div>
+    </header>
+    <main>
+      <section id="home" class="mb-5">
+        <div class="container-fluid p-0 position-relative">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div id="slide1" class="carousel-item active">
+                <img src="images/slideshow-1.jpg" class="" alt="" />
+                <h1 class="position-absolute h1-custom">
+                  We build great brands.
+                </h1>
+              </div>
+              <div id="slide2" class="carousel-item">
+                <img src="images/slideshow-2.jpg" class="" alt="" />
+                <h1 class="position-absolute h1-custom">Focusedon strategy.</h1>
+              </div>
+              <div id="slide3" class="carousel-item">
+                <img src="images/slideshow-3.jpg" class="" alt="" />
+                <h1 class="position-absolute h1-custom h1-custom-1">
+                  Advanced indigital works.
+                </h1>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev btn fs-5 btn-custom z-3 btn-custom-prev position-absolute"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev"
+            >
+              <span
+                class="fa-solid fa-chevron-left z-1"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+              <div class="bg-moving position-absolute btn"></div>
+            </button>
+            <button
+              class="carousel-control-next fs-5 btn btn-custom z-3 btn-custom-next position-absolute"
+              type="button"
+              data-bs-target="#carouselExampleFade"
+              data-bs-slide="next"
+            >
+              <span
+                class="fa-solid fa-chevron-right z-1"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+              <div class="bg-moving position-absolute btn"></div>
+            </button>
+            <div class="movingbtn rounded-pill position-absolute"></div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="my-5">
+        <div class="container py-5">
+          <div class="row">
+            <div class="section-title text-center my-5">
+              <h2 class="title-text py-3">About Us</h2>
+              <p class="text-muted w-50 mx-auto">
+                Pellentesque elementum libero enim, eget gravida nunc laoreet
+                et. Nullam ac enim auctor, fringilla risus at, imperdiet turpis.
+                Pellentesque elementum libero enim.
+              </p>
+            </div>
+            <div class="col-md-7 px-4">
+              <div class="text text-muted">
+                <p>
+                  Pellentesque vel elit egestas, pretium est ac, convallis orci.
+                  Vivamus sem nisl, tristique vel fringilla vitae, efficitur at
+                  eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat
+                  quis gravida pulvinar. Phasellus vel eros porta, blandit dui
+                  ac, viverra felis.
+                </p>
+                <p>
+                  Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna
+                  posuere volutpat. Mauris ut dui sit amet elit fermentum
+                  fermentum. Fusce tincidunt diam at bibendum porta.
+                </p>
+                <p>
+                  Aliquam nunc felis, sagittis eu purus non, interdum vehicula
+                  urna. Vivamus congue diam sapien, eu pellentesque ipsum
+                  ultricies quis.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="percentage">
+                <div class="prog-text1 d-flex justify-content-between">
+                  <p class="text-start">Branding</p>
+                  <p class="text-end">80%</p>
+                </div>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label=" Example 1px high"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="height: 4px"
+                >
+                  <div class="progress-bar bg-danger" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="percentage">
+                <div class="prog-text2 d-flex justify-content-between">
+                  <p class="text-start">Web Design</p>
+                  <p class="text-end">95%</p>
+                </div>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label="Example 1px high"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="height: 4px"
+                >
+                  <div class="progress-bar bg-danger" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="percentage">
+                <div class="prog-text3 d-flex justify-content-between">
+                  <p>Graphic Design</p>
+                  <p>85%</p>
+                </div>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label="Example 1px high"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="height: 4px"
+                >
+                  <div class="progress-bar bg-danger" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="percentage">
+                <div class="prog-text4 d-flex justify-content-between">
+                  <p class="text-start">Development</p>
+                  <p class="text-end">70%</p>
+                </div>
+                <div
+                  class="progress"
+                  role="progressbar"
+                  aria-label="Example 1px high"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                  style="height: 4px"
+                >
+                  <div class="progress-bar bg-danger" style="width: 70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="team" class="my-5">
+        <div class="container py-5">
+          <div class="row gy-md-3">
+            <div class="section-title text-center my-5">
+              <h2 class="title-text py-3">Our Team</h2>
+              <p class="text-muted w-50 mx-auto">
+                Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt
+                urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa
+                aliquam faucibus.
+              </p>
+            </div>
+            <div class="col-lg-3">
+              <div class="items text-center">
+                <figure class="position-relative">
+                  <img src="/images/member-1.jpg" class="w-100" alt="" />
+
+                  <div
+                    class="layer fs-6 d-flex justify-content-center align-items-center bg-danger bg-opacity-75 position-absolute top-0 bottom-0 end-0 start-0"
+                  >
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-twitter px-3"></i
+                    ></a>
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-facebook-f px-3"></i
+                    ></a>
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-linkedin-in px-3"></i
+                    ></a>
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-dribbble px-3"></i
+                    ></a>
+                  </div>
+                </figure>
+                <h5 class="fw-bolder fs-6 mb-0">Michael Broad</h5>
+                <p class="text-muted">Web Designer</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="items text-center">
+                <figure class="position-relative">
+                  <img src="/images/member-2.jpg" class="w-100" alt="" />
+
+                  <div
+                    class="layer fs-6 d-flex justify-content-center align-items-center bg-danger bg-opacity-75 position-absolute top-0 bottom-0 end-0 start-0"
+                  >
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-twitter px-3"></i
+                    ></a>
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-facebook-f px-3"></i
+                    ></a>
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-linkedin-in px-3"></i
+                    ></a>
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-dribbble px-3"></i
+                    ></a>
+                  </div>
+                </figure>
+                <h5 class="fw-bolder fs-6 mb-0">Jeannette Crow</h5>
+                <p class="text-muted">CEO Founder</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="items text-center">
+                <figure class="position-relative">
+                  <img src="/images/member-3.jpg" class="w-100" alt="" />
+
+                  <div
+                    class="layer fs-6 d-flex justify-content-center align-items-center bg-danger bg-opacity-75 position-absolute top-0 bottom-0 end-0 start-0"
+                  >
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-twitter px-3"></i
+                    ></a>
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-facebook-f px-3"></i
+                    ></a>
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-linkedin-in px-3"></i
+                    ></a>
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-dribbble px-3"></i
+                    ></a>
+                  </div>
+                </figure>
+                <h5 class="fw-bolder fs-6 mb-0">Martin Lawrence</h5>
+                <p class="text-muted">App Developer</p>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="items text-center">
+                <figure class="position-relative">
+                  <img src="/images/member-4.jpg" class="w-100" alt="" />
+
+                  <div
+                    class="layer fs-6 d-flex justify-content-center align-items-center bg-danger bg-opacity-75 position-absolute top-0 bottom-0 end-0 start-0"
+                  >
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-twitter px-3"></i
+                    ></a>
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-facebook-f px-3"></i
+                    ></a>
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-linkedin-in px-3"></i
+                    ></a>
+                    <a href="#" class="text-light"
+                      ><i class="fa fa-brands fa-dribbble px-3"></i
+                    ></a>
+                  </div>
+                </figure>
+                <h5 class="fw-bolder fs-6 mb-0">Isabella Dowson</h5>
+                <p class="text-muted">Creative Director</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <h2>Do you have any ideas?</h2>
+            </div>
+            <div class=" col-md-6 text-center">
+              <a href="#" class="btn btn-danger opacity-75 px-4 py-3">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="my-5 py-5">
+        <div class="container">
+          <div class="row gy-3 gx-md-4">
+            <div class="section-title text-center my-5">
+              <h2 class="title-text py-3">Services</h2>
+              <p class="text-muted w-50 mx-auto">
+                Nullam ac enim auctor, fringilla risus at, imperdiet turpis.
+                Pellentesque elementum libero enim, eget gravida nunc laoreet
+                et. Pellentesque elementum libero enim.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="services-item">
+                <div class="services-icon">
+                  <i
+                    class="fa-solid fa-laptop d-inline-block fs-4 me-3 text-danger"
+                  ></i>
+                  <h3 class="services-text d-inline-block fw-bold fs-5">
+                    Responsive Layout
+                  </h3>
+                </div>
+                <p class="text-muted ps-5">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="services-item">
+                <div class="services-icon">
+                  <i
+                    class="fa-solid fa-pen-ruler d-inline-block fs-4 me-3 text-danger"
+                  ></i>
+                  <h3 class="services-text d-inline-block fw-bold fs-5">
+                    Modern Design
+                  </h3>
+                </div>
+                <p class="text-muted ps-5">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="services-item">
+                <div class="services-icon">
+                  <i
+                    class="fa-regular fa-flag d-inline-block fs-4 me-3 text-danger"
+                  ></i>
+                  <h3 class="services-text d-inline-block fw-bold fs-5">
+                    Font Awesome Icons
+                  </h3>
+                </div>
+                <p class="text-muted ps-5">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="services-item">
+                <div class="services-icon">
+                  <i
+                    class="fa-solid fa-envelopes-bulk d-inline-block fs-4 me-3 text-danger"
+                  ></i>
+                  <h3 class="services-text d-inline-block fw-bold fs-5">
+                    Ajax Portfolio
+                  </h3>
+                </div>
+                <p class="text-muted ps-5">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="services-item">
+                <div class="services-icon">
+                  <i
+                    class="fa-solid fa-gear d-inline-block fs-4 me-3 text-danger"
+                  ></i>
+                  <h3 class="services-text d-inline-block fw-bold fs-5">
+                    Color Options
+                  </h3>
+                </div>
+                <p class="text-muted ps-5">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="services-item">
+                <div class="services-icon">
+                  <i
+                    class="fa-solid fa-headset d-inline-block fs-4 me-3 text-danger"
+                  ></i>
+                  <h3 class="services-text d-inline-block fw-bold fs-5">
+                    Audio Support
+                  </h3>
+                </div>
+                <p class="text-muted ps-5">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="services-item">
+                <div class="services-icon">
+                  <i
+                    class="fa-regular fa-rectangle-list d-inline-block fs-4 me-3 text-danger"
+                  ></i>
+                  <h3 class="services-text d-inline-block fw-bold fs-5">
+                    Well Documented
+                  </h3>
+                </div>
+                <p class="text-muted ps-5">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="services-item">
+                <div class="services-icon">
+                  <i
+                    class="fa-solid fa-video d-inline-block fs-4 me-2 text-danger"
+                  ></i>
+                  <h3 class="services-text d-inline-block fw-bold fs-5">
+                    Background Videos
+                  </h3>
+                </div>
+                <p class="text-muted ps-5">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="services-item">
+                <div class="services-icon">
+                  <i
+                    class="fa-solid fa-sliders rotation d-inline-block fs-4 me-3 text-danger"
+                  ></i>
+                  <h3 class="services-text d-inline-block fw-bold fs-5">
+                    Intro Slider
+                  </h3>
+                </div>
+                <p class="text-muted ps-5">
+                  Ferri reque integre mea ut, eu eos vide errem noluise se.
+                  Putent laoreet et ius utroque dissentias ut.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+   <section id="blog" class="my-5">
+        <div class="container">
+          <div class="section-title text-center">
+            <h2 class="title-text py-3">Client Reviews</h2>
+            <p class="text-muted w-50 mx-auto">
+              Donec purus est, tincidunt eu sodales quis, vehicula quis enim.
+              Morbi dapibus, tellus a gravida faucibus, elit ipsum sollicitudin
+              risus, id ultricies arcu neque eget velit.
+            </p>
+          </div>
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide my-3 text-center"
+          >
+            <div class="carousel-indicators position-static overflow-auto mx-auto">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+                class="btn-custom mb-5"
+              >
+                <img
+                  src="/images/client-6.png"
+                  class="w-100 rounded-circle"
+                  alt=""
+                />
+                <h6 class="m-0 mt-2">Jonathon Doe</h6>
+                <p class="text-muted m-0">From Umbrella</p>
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="6"
+                aria-label="Slide 7"
+                class="btn-custom mb-5"
+              >
+                <img
+                  src="/images/client-7.png"
+                  class="w-100 rounded-circle"
+                  alt=""
+                />
+                <h6 class="m-0 mt-2">Shane Catson</h6>
+                <p class="text-muted m-0">From Massive</p>
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="7"
+                aria-label="Slide 8"
+                class="btn-custom mb-5"
+              >
+                <img
+                  src="/images/client-8.png"
+                  class="w-100 rounded-circle"
+                  alt=""
+                />
+                <h6 class="m-0 mt-2">Hugh Tace</h6>
+                <p class="text-muted m-0">From Capital</p>
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="8"
+                aria-label="Slide 9"
+                class="btn-custom mb-5"
+              >
+                <img
+                  src="/images/client-9.png"
+                  class="w-100 rounded-circle"
+                  alt=""
+                />
+                <h6 class="m-0 mt-2">Chris Wort</h6>
+                <p class="text-muted m-0">From Sylhost</p>
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active btn-custom mb-5"
+                aria-current="true"
+                aria-label="Slide 1"
+              >
+                <img
+                  src="/images/client-1.png"
+                  class="w-100 rounded-circle"
+                  alt=""
+                />
+                <h6 class="m-0 mt-2">Martin Jack</h6>
+                <p class="text-muted m-0">From Hooli</p>
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+                class="btn-custom mb-5"
+              >
+                <img
+                  src="/images/client-2.png"
+                  class="w-100 rounded-circle"
+                  alt=""
+                />
+                <h6 class="m-0 mt-2">David Dowsy</h6>
+                <p class="text-muted m-0">From Globex</p>
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+                class="btn-custom mb-5"
+              >
+                <img
+                  src="/images/client-3.png"
+                  class="w-100 rounded-circle"
+                  alt=""
+                />
+                <h6 class="m-0 mt-2">Doglas Kosta</h6>
+                <p class="text-muted m-0">From Soylent</p>
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+                class="btn-custom mb-5"
+              >
+                <img
+                  src="/images/client-4.png"
+                  class="w-100 rounded-circle"
+                  alt=""
+                />
+                <h6 class="m-0 mt-2">Anthony Lee</h6>
+                <p class="text-muted m-0">From Initech</p>
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+                class="btn-custom mb-5"
+              >
+                <img
+                  src="/images/client-5.png"
+                  class="w-100 rounded-circle"
+                  alt=""
+                />
+                <h6 class="m-0 mt-2">Jane Doris</h6>
+                <p class="text-muted m-0">From Acme</p>
+              </button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="content mx-auto">
+                  <p class="text-muted fs-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    Aenean sit amet est orci. Aenean at nisi eget nulla lobortis
+                    commodo. Nam eget lorem in ex aliquam dapibus.
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="content mx-auto">
+                  <p class="text-muted fs-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    Suspendisse non velit lacus. Mauris efficitur lorem a justo
+                    semper, ut suscipit ligula malesuada. Donec dui nulla.
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="content mx-auto">
+                  <p class="text-muted fs-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    Vestibulum lectus massa, volutpat ut tristique nec, volutpat
+                    in turpis. In vehicula tempus odio. Nullam enim ligula.
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="content mx-auto">
+                  <p class="text-muted fs-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    Nunc accumsan finibus sollicitudin. Integer malesuada purus
+                    sapien, sit amet volutpat sem fringilla ut. Proin viverra
+                    scelerisque mollis.
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="content mx-auto">
+                  <p class="text-muted fs-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    Fusce euismod eget nulla a tempus. Pellentesque in varius
+                    metus. Fusce iaculis cursus ante, vel vestibulum dui
+                    sagittis vitae.
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="content mx-auto">
+                  <p class="text-muted fs-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    Cras et est eu tellus fringilla congue. Nunc efficitur
+                    libero ut nunc volutpat porttitor. Aliquam in justo at
+                    neque.
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="content mx-auto">
+                  <p class="text-muted fs-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    Vivamus pellentesque dignissim neque, quis viverra diam
+                    venenatis sit amet. Donec dignissim turpis quis libero
+                    posuere auctor.
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="content mx-auto">
+                  <p class="text-muted fs-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    Aenean varius accumsan eros, id molestie leo vestibulum a.
+                    Ut semper dictum feugiat. Integer tincidunt interdum eros ut
+                    accumsan.
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="content mx-auto">
+                  <p class="text-muted fs-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    Morbi viverra ultrices magna vel egestas. Suspendisse
+                    rutrum, lacus nec sodales gravida, augue ante sollicitudin
+                    sem.
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="section-title text-center my-5">
+              <h2 class="title-text py-3">Get In Touch</h2>
+              <p class="text-muted w-50 mx-auto">
+                Mauris at tempus mi, ut iaculis dui. Integer laoreet mattis
+                justo nec pretium. Ut nibh elit, fermentum vel hendrerit vel,
+                dictum nec velit. Morbi volutpat suscipit.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <h2 class="mb-5">
+                Get answers and advices from professional consultants.
+              </h2>
+              <div class="adress color-font mb-1">
+                <div class="row">
+                  <div class="col-1 text-danger fs-2 m-0">
+                    <i class="fa-regular fa-map"> </i>
+                  </div>
+                  <div class="col-11">
+                    <h5 class="mb-0">Address</h5>
+                    <p class="fs-6 text-muted">
+                      1650 Lombard Street, San Francisco, CA 94123
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="phone color-font mb-4 border border border-end-0 border-start-0 pt-4 pb-2"
+              >
+                <div class="row">
+                  <div class="col-1 text-danger fs-2 m-0">
+                    <i class="fa-solid fa-mobile"></i>
+                  </div>
+                  <div class="col-11">
+                    <h5 class="mb-0">Phone</h5>
+                    <p class="fs-6 text-muted">
+                      +1 (415) 876-3250 / +1 (415) 876-3251
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="say color-font mb-5">
+                <div class="row">
+                  <div class="col-1 text-danger fs-2 m-0">
+                    <i class="fa-regular fa-envelope"></i>
+                  </div>
+                  <div class="col-11">
+                    <h5 class="mb-0">Say Hello</h5>
+                    <p class="fs-6 text-muted">
+                      <a href="email@sitename.com" class="text-decoration-none"
+                        >email@sitename.com</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control p-3"
+                  id="exampleFormControlInput1"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control p-3"
+                  id="exampleFormControlInput1"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="tel"
+                  class="form-control p-3"
+                  id="exampleFormControlInput1"
+                  placeholder="Phone"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control p-3"
+                  placeholder="Message"
+                  id="exampleFormControlTextarea1"
+                  rows="4"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-danger px-5 py-3">
+                <i class="fa-solid fa-paper-plane me-1"></i> Send Message
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark pt-5 position-relative">
+      <div class="layer py-5">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12">
+              <h2>
+                <a href="#home"><img src="/images/icon.png" alt="" /></a>
+              </h2>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="text-footer text-white text-start">
+                  <h5 class="fw-bold my-4">Contact Info</h5>
+                  <p class="opacity-75 mb-0">1650 Lombard Street,</p>
+                  <p class="opacity-75 mb-2">San Francisco, CA 94123</p>
+                  <p class="opacity-75 mb-0">+1 (415) 876-3250</p>
+                  <p class="opacity-75">
+                    <a href="email@sitename.com">email@sitename.com</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="text-footer text-white text-start">
+                  <h5 class="fw-bold my-4">Useful Links</h5>
+                  <ul class="footer-list">
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Affiliate Program</a></li>
+                    <li><a href="#">Careers</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="text-footer text-white text-start">
+                  <h5 class="fw-bold my-4">Recent Posts</h5>
+                  <ul class="footer-list">
+                    <li><a href="#">Sunset in Venice</a></li>
+                    <li><a href="#">Aerial View of Village</a></li>
+                    <li><a href="#">Lighted Concrete City</a></li>
+                    <li><a href="#">The Little Ghost</a></li>
+                    <li><a href="#">Royal Oats ft. Waldo</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-3 pe-3">
+                <div class="btn-footer text-white text-start">
+                  <h5 class="fw-bold my-4">Popular Tags</h5>
+                  <div class="links">
+                    <a href="#" class="btn btn-custom">HTML5</a>
+                    <a href="#" class="btn btn-custom">CSS3</a>
+                    <a href="#" class="btn btn-custom">jQuery</a>
+                    <a href="#" class="btn btn-custom">UX / UI</a>
+
+                    <a href="#" class="btn btn-custom">Web</a>
+                    <a href="#" class="btn btn-custom">Graphic</a>
+                    <a href="#" class="btn btn-custom">Design</a>
+                    <a href="#" class="btn btn-custom">Development</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="layer2 py-4">
+        <div class="container">
+          <div class="row text-center gy-3 align-items-center">
+            <div class="col-md-6 text-md-start">
+              <div class="icons">
+                <a href="#" class="mx-2"
+                  ><i class="fa fa-brands fa-twitter"></i
+                ></a>
+                <a href="#" class="mx-2"
+                  ><i class="fa fa-brands fa-facebook-f"></i
+                ></a>
+                <a href="#" class="mx-2"
+                  ><i class="fa fa-brands fa-instagram"></i
+                ></a>
+                <a href="#" class="mx-2"
+                  ><i class="fa fa-brands fa-dribbble"></i
+                ></a>
+                <a href="#" class="mx-2"
+                  ><i class="fa fa-brands fa-pinterest"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <p class="text-white opacity-75 d-inline-block">
+                Copyright © 2020
+              </p>
+              <a href="#home" class="link-web opacity-100 fw-bolder fs-6"
+                >Angora</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="slide-icon position-absolute btn btn-danger rounded-circle translate-middle fs-5 "
+      >
+        <a href="#home" class="text-white"><i class="fa-solid fa-chevron-up"></i></a>
+      </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
